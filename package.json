@@ -25,11 +25,13 @@
   "dependencies": {
     "@opam/dune": "*",
     "@opam/reason": "*",
-    "ocaml": "4.12.x"
+    "ocaml": "4.14.x",
+    "@opam/utop": "*"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",
     "@opam/merlin": "*",
-    "@opam/odoc": "*"
+    "@opam/odoc": "*",
+    "@opam/ocamlformat": "*"
   }
 }
